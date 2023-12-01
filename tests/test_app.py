@@ -1,4 +1,4 @@
-from app import hello_world
+from app import app
 
 def test_app():
-    assert.app() == "Hello, World!"
+    assert app() == "Hello, World!"
