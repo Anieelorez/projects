@@ -34,6 +34,12 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+<<<<<<< HEAD
     - name: Run Test 
       run: |
         python app.py
+=======
+    - name: Run Test
+      run: |
+        python app.py test
+>>>>>>> aa60c84dc99f91e869624972cb7ad8f3e6558d5f
